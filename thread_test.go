@@ -12,7 +12,7 @@ func TestThreadInitialization(t *testing.T) {
 
 	assert.True(t, PyEval_ThreadsInitialized())
 
-	PyEval_ReInitThreads()
+	PyOS_AfterFork_Child()
 }
 
 func TestGIL(t *testing.T) {
