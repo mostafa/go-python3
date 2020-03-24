@@ -1,6 +1,6 @@
 # go-python3
 
-**Currently supports python-3.7 only.**
+**Currently supports python-3.8 only.**
 
 Golang bindings for the C-API of CPython-3.
 
@@ -16,9 +16,9 @@ This project was inspired by https://github.com/sbinet/go-python. Go and take a 
 
 ## Deps
 
-We will need `pkg-config` and a working `python3.7` environment to build these
+We will need `pkg-config` and a working `python3.8` environment to build these
 bindings. Make sure you have Python libraries and header files installed as
-well (`python3.7-dev` on Debian or `python3-devel` on Centos for example)..
+well (`python3.8-dev` on Debian or `python3-devel` on Centos for example)..
 
 By default `pkg-config` will look at the `python3` library so if you want to
 choose a specific version just symlink `python-X.Y.pc` to `python3.pc` or use
