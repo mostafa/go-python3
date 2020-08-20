@@ -26,7 +26,7 @@ the `PKG_CONFIG_PATH` environment variable.
 
 ## Go get
 
-Then simply `go get github.com/DataDog/go-python3`
+Then simply `go get github.com/mostafa/go-python3`
 
 # API
 

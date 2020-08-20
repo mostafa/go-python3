@@ -1,4 +1,4 @@
-module github.com/DataDog/go-python3
+module github.com/mostafa/go-python3
 
 go 1.14
 
